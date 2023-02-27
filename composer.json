@@ -1,0 +1,23 @@
+{
+    "name": "mcfadyen/challenge",
+    "description": "N/A",
+    "type": "magento2-theme",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~8.0.0||~8.1.0",
+        "magento/framework": "103.0.*",
+        "fcamara/grandcru" : "100.3.*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "version": "100.3.2"
+}
